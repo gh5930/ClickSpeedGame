@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+
+    android:id="@+id/field"
+    tools:context=".MainActivity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/indikator"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg"
+                android:onClick="onClick"
+                />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/score"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/butt"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/play"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/time"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/my_button_bg"
+                />
+
+            <view
+                android:id="@+id/b5"
+                style="@style/Widget.AppCompat.Button.Colored"
+                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b6"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg"
+                android:onClick="onClick"
+                android:textColor="@android:color/black" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b7"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b8"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b9"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b10"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/my_button_bg"
+                />
+
+            <view
+                android:id="@+id/b11"
+                style="@style/Widget.AppCompat.Button.Colored"
+                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/my_button_bg" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b12"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg"
+                android:onClick="onClick"
+                android:textColor="@android:color/black" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b13"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b14"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b15"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg"
+                android:textColor="@android:color/darker_gray" />
+
+            <view
+                android:id="@+id/b16"
+
+                style="@style/Widget.AppCompat.Button.Colored"
+                class="com.ghkindel.android.condition_56.SquareButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/my_button_bg" />
+
+            <view
+                android:id="@+id/b17"
+                style="@style/Widget.AppCompat.Button.Colored"
+                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/my_button_bg" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b18"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg"
+                android:onClick="onClick"
+                android:textColor="@android:color/black" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b19"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b20"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b21"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b22"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/my_button_bg"
+                />
+
+            <view
+                android:id="@+id/b23"
+                style="@style/Widget.AppCompat.Button.Colored"
+                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/my_button_bg" />
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <view
+                android:id="@+id/b24"
+                style="@style/Widget.AppCompat.Button.Colored"
+                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/my_button_bg" />
+
+            <view
+                android:id="@+id/b25"
+                style="@style/Widget.AppCompat.Button.Colored"
+                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray"
+                />
+
+            <view
+                android:id="@+id/b26"
+                style="@style/Widget.AppCompat.Button.Colored"
+                class="com.ghkindel.android.condition_56.SquareButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray" />
+
+            <view
+                android:id="@+id/b27"
+                style="@style/Widget.AppCompat.Button.Colored"
+                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray" />
+
+            <view
+                android:id="@+id/b28"
+                style="@style/Widget.AppCompat.Button.Colored"
+                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/my_button_bg" />
+
+            <view
+                android:id="@+id/b29"
+                style="@style/Widget.AppCompat.Button.Colored"
+                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/my_button_bg" />
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b30"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/my_button_bg"
+                />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b31"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b32"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b33"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b34"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/my_button_bg"
+                />
+
+            <view
+                android:id="@+id/b35"
+                style="@style/Widget.AppCompat.Button.Colored"
+                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/my_button_bg" />
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b36"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b37"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b38"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b39"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b40"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray" />
+
+            <view
+                android:id="@+id/b41"
+                style="@style/Widget.AppCompat.Button.Colored"
+                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/my_button_bg" />
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b42"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b43"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b44"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b45"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b46"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray" />
+
+            <view
+                android:id="@+id/b47"
+                style="@style/Widget.AppCompat.Button.Colored"
+                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/my_button_bg" />
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b48"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/my_button_bg"
+                />
+
+            <view
+                android:id="@+id/b49"
+
+                style="@style/Widget.AppCompat.Button.Colored"
+                class="com.ghkindel.android.condition_56.SquareButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b50"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/my_button_bg"
+                />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b51"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/my_button_bg2"
+                android:textColor="@android:color/darker_gray" />
+
+            <view                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:id="@+id/b52"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/my_button_bg"
+                />
+            <view
+                android:id="@+id/b53"
+                style="@style/Widget.AppCompat.Button.Colored"
+                class="com.ghkindel.android.condition_56.SquareButton"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/my_button_bg" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
